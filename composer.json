@@ -1,0 +1,12 @@
+{
+    "name": "simpligps/simpligps-standard",
+    "description": "Interfaces for common gps resources",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Punksolid",
+            "email": "punksolid@gmail.com"
+        }
+    ],
+    "require": {}
+}
