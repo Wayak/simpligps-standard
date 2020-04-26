@@ -4,7 +4,7 @@
 interface DeviceInterface
 {
 
-    public static function find(string $id): Self;
+    public static function find(string $id): self;
 
     public function getName(): string;
 
