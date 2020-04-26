@@ -4,7 +4,7 @@
 interface DeviceInterface
 {
 
-    public static function find(string $id): self;
+    public static function find(string $id): DeviceInterface;
 
     public function getName(): string;
 
@@ -14,5 +14,5 @@ interface DeviceInterface
      * Destroy a Device resource from its origin
      * @return string
      */
-    public function destroy(): string ;
+    public function destroy(): string;
 }

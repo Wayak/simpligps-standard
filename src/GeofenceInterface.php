@@ -3,7 +3,7 @@
 
 interface GeofenceInterface
 {
-    public static function find(string $id): self;
+    public static function find(string $id): GeofenceInterface;
 
     public function getId(): string;
 
