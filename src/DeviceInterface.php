@@ -14,5 +14,5 @@ interface DeviceInterface
      * Destroy a Device resource from its origin
      * @return string
      */
-    public function destroy(): string;
+    public static function destroy(): string;
 }
